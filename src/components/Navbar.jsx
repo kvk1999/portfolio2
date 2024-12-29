@@ -29,7 +29,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Logo"
-              className="h-10 w-auto object-contain hover:opacity-80 transition-opacity"
+              className="h-20 w-auto object-contain hover:opacity-80 transition-opacity"
             />
           </a>
         </div>
