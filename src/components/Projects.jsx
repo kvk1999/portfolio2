@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <section id="projects" className="p-8 bg-gray-900">
       <hr />
-      <h2 className="text-5xl text-white font-extrabold font-oswald text-center mt-20">Projects</h2>
+      <h2 className="text-5xl text-white font-oswald text-center mt-20">Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 w-full mx-auto gap-5 mt-5 mb-10">
         {/* Income and Expenses Game */}
         <div className="mt-4 grid gap-4 border rounded-md bg-slate-900 hover:scale-105 hover:animate-pulse">
