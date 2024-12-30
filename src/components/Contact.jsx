@@ -32,7 +32,7 @@ export default function Contact() {
         <p className="text-2xl font-semibold text-white mb-4">Social Links</p>
         <div className="space-x-4">
           <a 
-            href="https://www.linkedin.com/in/koushik-kv/" 
+            href="https://www.linkedin.com/in/koushik-raghavan-kunnavakkam-vinchimur-011a0113a/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-lg text-blue-500 hover:text-blue-700 transition duration-300"
