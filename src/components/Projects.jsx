@@ -85,7 +85,7 @@ export default function Projects() {
           <div className="p-4 rounded-lg">
             <img src={Development} alt="Development App" className="rounded-md" />
             <h3 className="text-2xl font-outfit font-bold text-transparent text-center mt-2 bg-clip-text bg-gradient-to-r from-linear1 to-linear">
-              Ecommerce Cart
+              Developement TicTacToe
             </h3>
             <div className="flex justify-between mt-2">
               <a href="https://github.com/kvk1999/memorygame" className="text-white text-lg ml-1 group">GitHub
