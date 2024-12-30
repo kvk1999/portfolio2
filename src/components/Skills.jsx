@@ -26,10 +26,22 @@ const Skills = () => {
     { name: "Web Development", description: "Building and maintaining websites" },
     { name: "Full Stack Development", description: "Front-end and back-end development" },
     { name: "Database Management", description: "Designing, implementing, and managing databases" },
-    { name: "Cloud Computing", description: "Managing and utilizing cloud resources" },
+    { name: "Project Management", description: "Planning, organizing, and overseeing projects" },
     { name: "Machine Learning", description: "Building models and algorithms for AI" },
-    { name: "DevOps", description: "Software development and IT operations collaboration" },
+    { name: "Coding", description: "Writing code in various programming languages" },
+    { name: "API Design", description: "Creating and implementing APIs" },
+    { name: "Problem Solving", description: "Analyzing and solving complex problems" },
+    { name: "Teamwork", description: "Collaborating with others to achieve goals" },
+    { name: "Communication", description: "Conveying information clearly and effectively" },
+    { name: "Time Management", description: "Organizing and prioritizing tasks efficiently" },
+    { name: "Decision Making", description: "Making informed decisions based on data and analysis" },
+    { name: "Critical Thinking", description: "Understanding complex issues and making informed decisions" },
+    { name: "Adaptability", description: "Easily adapting to new situations and technologies" },
+    { name: "Strong Interpersonal", description: "Building and maintaining strong relationships with others" },
+    { name: "Resilience", description: "Bouncing back from setbacks and challenges" },
   ];
+
+  // 
 
   return (
     <div className="w-full py-20 bg-gray-900 text-white" id="skills">
@@ -54,7 +66,7 @@ const Skills = () => {
 
         {/* Technical Skills Section - Right Side */}
         <div className="w-full md:w-1/2">
-          <h3 className="text-xl font-semibold text-center mb-4">Technical Skills</h3>
+          <h3 className="text-xl font-semibold text-center mb-4">Technical Skills & Soft Skills</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
             {technicalSkills.map((skill, index) => (
               <div
