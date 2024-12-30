@@ -130,7 +130,7 @@ const Navbar = () => {
             </a>
             <a 
               href={ Resume }
-              className="hover:text-gray-300"
+              className="hover:text-lime-600"
               target="_blank"
             >
               Resume
