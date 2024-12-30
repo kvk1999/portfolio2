@@ -43,7 +43,7 @@ export default function Contact() {
             href="https://github.com/kvk1999" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-lg text-white hover:text-black transition duration-300"
+            className="text-lg text-white hover:text-slate-700 transition duration-300"
           >
             GitHub
           </a>
