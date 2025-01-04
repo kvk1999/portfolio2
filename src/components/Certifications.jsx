@@ -32,6 +32,11 @@ const Certifications = () => {
       issuedBy: "GUVI",
       field: "Full Stack Development",
     },
+    {
+      title: "Az-900 Fundamentals",
+      issuedBy: "Microsoft",
+      field: "Azure",
+    }
   ];
 
   return (
