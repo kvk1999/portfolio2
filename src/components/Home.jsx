@@ -24,7 +24,7 @@ const Home = () => {
       </h1>
 
       <h2 className="text-2xl md:text-3xl font-semibold font-ubuntu text-gray-300 mb-4">
-        I'm
+        I'm a
       </h2>
 
       {/* Typing Effect */}
@@ -35,8 +35,7 @@ const Home = () => {
               "Full Stack Developer",
               "MERN Developer",
               "Web Developer",
-              "Frontend Developer",
-              "Backend Developer",
+              "R Developer",
             ],
             autoStart: true,
             loop: true,
