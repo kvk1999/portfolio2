@@ -18,11 +18,9 @@ const About = () => {
           {/* Right Side: Description */}
           <div className="md:flex-1 text-lg text-gray-300">
             <p>
-              Hello! I'm K V Koushik, a recent MCA graduate with practical experience in full-stack development. I completed a 3-month internship at MagicBus, Chennai, where I contributed to an exciting project called <span className="font-semibold">'Pathology Classification'</span>.
-              <br />During this internship, I sharpened my skills in HTML, CSS, JavaScript, and expanded my knowledge by learning Bootstrap and React.<br />
-              Additionally, I developed a project titled 'Virtual Desktop Assistant' during my academic journey, demonstrating my ability to create efficient and functional solutions.
-              <br />As a passionate Full Stack Developer, I'm eager to leverage my skills to tackle real-world challenges.<br />
-              Let’s connect and explore the endless potential of coding together!
+            Hello! I'm Koushik K V, a recent MCA graduate with a passion for full-stack development, cloud computing, and AI-driven solutions. I specialize in building scalable web applications using MERN Stack (MongoDB, Express.js, React.js, Node.js) and leveraging Azure cloud services for efficient deployment.
+
+With expertise in Python, JavaScript, and AI technologies, I enjoy solving complex problems, optimizing performance, and creating user-friendly, responsive interfaces. Always eager to learn and adapt, I stay up-to-date with emerging tools and frameworks to deliver innovative, high-impact applications.
             </p>
           </div>
         </div>
