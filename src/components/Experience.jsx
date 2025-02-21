@@ -33,7 +33,7 @@ const Experience = () => {
     { id: 'inlustro', side: 'left', icon: <FaSchool size={16} />, title: 'Inlustro', role: 'Full-Stack Development', date: 'Feb 2023 - May 2023' },
     { id: 'vels', side: 'right', icon: <FaSchool size={16} />, title: 'Vels Institute of Science and Technology', role: 'Master of Computer Applications (MCA)', date: '2022 - 2024' },
     { id: 'dhanraj', side: 'left', icon: <FaSchool size={16} />, title: 'Dhanraj Baid Jain College', role: 'Bachelor of Science (Computer Science)', date: '2019 - 2022' },
-    { id: 'emma', side: 'right', icon: <FaSchool size={16} />, title: 'Emma Foulger Matriculation Higher Secondary School', role: '11th & 12th Grade', date: '2017 - 2019' },
+    
   ];
 
   return (
