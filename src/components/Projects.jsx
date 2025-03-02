@@ -1,9 +1,9 @@
 import React from 'react';
-import IncomeandExpenses from '../assets/IncomeandExpenses.png'
+import CRUDOperations from '../assets/CRUD.png'
 import FakeStore from '../assets/fakestore.png'
 import TravelLanding from '../assets/travel.png'
 import MovieSearchApp from '../assets/MoviezBonanza.png'
-import Development from '../assets/Development.png'
+import MemoryGame from '../assets/MemoryGame.png'
 import Course from '../assets/course.png'
 
 export default function Projects() {
@@ -12,10 +12,10 @@ export default function Projects() {
       <hr />
       <h2 className="text-5xl text-white font-oswald text-center mt-20">Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 w-full mx-auto gap-5 mt-5 mb-10">
-        {/* Income and Expenses Game */}
+        {/* CRUD Operations */}
         <div className="mt-4 grid gap-4 border rounded-md bg-slate-900 hover:scale-105 hover:animate-pulse">
           <div className="p-4 rounded-lg">
-            <img src={IncomeandExpenses} alt="Income and Expenses" className="rounded-md" />
+            <img src={CRUDOperations} alt="CRUD Operations" className="rounded-md" />
             <h3 className="text-2xl font-oswald font-bold text-transparent text-center mt-2 bg-clip-text bg-gradient-to-r from-linear1 to-linear">
               CRUD Operations
             </h3>
@@ -80,12 +80,12 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        {/* Development App */}
+        {/* Memory Game */}
         <div className="mt-4 grid gap-4 border rounded-md bg-slate-900 hover:scale-105 hover:animate-pulse">
           <div className="p-4 rounded-lg">
-            <img src={Development} alt="Development App" className="rounded-md" />
+            <img src={MemoryGame} alt="Memory Game" className="rounded-md" />
             <h3 className="text-2xl font-outfit font-bold text-transparent text-center mt-2 bg-clip-text bg-gradient-to-r from-linear1 to-linear">
-              Developement TicTacToe
+              Development TicTacToe
             </h3>
             <div className="flex justify-between mt-2">
               <a href="https://github.com/kvk1999/memorygame" className="text-white text-lg ml-1 group">GitHub
