@@ -17,7 +17,7 @@ export default function Projects() {
           <div className="p-4 rounded-lg">
             <img src={IncomeandExpenses} alt="Income and Expenses" className="rounded-md" />
             <h3 className="text-2xl font-oswald font-bold text-transparent text-center mt-2 bg-clip-text bg-gradient-to-r from-linear1 to-linear">
-              Memory Game
+              CRUD Operations
             </h3>
             <div className="flex justify-between mt-2">
               <a href="https://github.com/kvk1999/CRUD" className="text-white text-lg font-oswald group">GitHub
@@ -34,7 +34,7 @@ export default function Projects() {
           <div className="p-4 rounded-lg">
             <img src={FakeStore} alt="Fake Store" className="rounded-md" />
             <h3 className="text-2xl font-outfit font-bold text-transparent text-center mt-2 bg-clip-text bg-gradient-to-r from-linear1 to-linear">
-              Expense Tracker
+              Fake Store
             </h3>
             <div className="flex justify-between mt-2">
               <a href="https://github.com/kvk1999/reactjstocssfakestore" className="text-white text-lg ml-1 group">GitHub

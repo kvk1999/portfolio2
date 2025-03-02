@@ -28,7 +28,6 @@ const TimelineItem = ({ side, icon, title, role, date }) => {
 
 const Experience = () => {
   const timelineItems = [
-    { id: 'guvi', side: 'left', icon: <FaSchool size={16} />, title: 'GUVI', role: 'Full-Stack MERN Development', date: 'Aug 2024 - Nov 2024' },
     { id: 'magicbus', side: 'right', icon: <FaCloud size={16} />, title: 'Magicbus India Foundation', role: 'Cloud Computing', date: 'Feb 2024 - May 2024' },
     { id: 'inlustro', side: 'left', icon: <FaSchool size={16} />, title: 'Inlustro', role: 'Full-Stack Development', date: 'Feb 2023 - May 2023' },
     { id: 'vels', side: 'right', icon: <FaSchool size={16} />, title: 'Vels Institute of Science and Technology', role: 'Master of Computer Applications (MCA)', date: '2022 - 2024' },
