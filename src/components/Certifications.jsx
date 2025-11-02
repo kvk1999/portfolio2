@@ -28,14 +28,19 @@ const Certifications = () => {
       field: "Database Management",
     },
     {
-      title: "Full stack Development by GUVI (Certification by IIT Madras)",
-      issuedBy: "GUVI",
+      title: "Full Stack Development Course (MERN) with AI Tools by IIT-M Pravartak",
+      issuedBy: "GUVI & IIT-M Pravartak",
       field: "Full Stack Development",
     },
     {
       title: "Az-900 Fundamentals",
       issuedBy: "Microsoft",
       field: "Azure",
+    },
+    {
+      title: "Generative AI Mastermind",
+      issuedBy: "Outskill by GrowthSchool",
+      field: "Artificial Intelligence",
     }
   ];
 
