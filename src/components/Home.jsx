@@ -36,6 +36,10 @@ const Home = () => {
               "MERN Developer",
               "Web Developer",
               "R Developer",
+              "Data Analyst",
+              "Data Visualizer",
+              "Cloud Computing Enthusiast",
+              
             ],
             autoStart: true,
             loop: true,
