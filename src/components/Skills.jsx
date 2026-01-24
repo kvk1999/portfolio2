@@ -18,6 +18,7 @@ const Skills = () => {
     { name: "Netlify", description: "Hosting platform for web projects" },
     { name: "Render", description: "Cloud platform for hosting web applications" },
     { name: "R", description: "Programming language for statistical computing" },
+    { name: "Excel", description: "Spreadsheet software for data analysis" },
 
   ];
 
