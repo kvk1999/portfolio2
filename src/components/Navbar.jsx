@@ -1,11 +1,18 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/logo.png";
-import Resume from "../assets/Resume.pdf";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   const handleNavLinkClick = (e, sectionId) => {
+    const targetHash = `/#${sectionId}`;
+    if (window.location.pathname !== "/") {
+      e.preventDefault();
+      window.location.href = targetHash;
+      return;
+    }
+
     e.preventDefault();
     setNavOpen(false);
     const section = document.getElementById(sectionId);
@@ -26,10 +33,16 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6">
-          {["home", "about", "skills", "projects", "contact"].map((id) => (
+          {[
+            "home",
+            "about",
+            "skills",
+            "projects",
+            "contact",
+          ].map((id) => (
             <a
               key={id}
-              href={`#${id}`}
+              href={`/#${id}`}
               className="hover:text-gray-300 capitalize"
               onClick={(e) => handleNavLinkClick(e, id)}
             >
@@ -38,14 +51,9 @@ const Navbar = () => {
           ))}
 
           {/* Resume (next to Contact) */}
-          <a
-            href={Resume}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-lime-600 font-medium"
-          >
+          <Link to="/resume" className="hover:text-lime-600 font-medium">
             Resume
-          </a>
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -64,7 +72,7 @@ const Navbar = () => {
           {["home", "about", "skills", "projects", "contact"].map((id) => (
             <a
               key={id}
-              href={`#${id}`}
+              href={`/#${id}`}
               className="hover:text-gray-300 capitalize"
               onClick={(e) => handleNavLinkClick(e, id)}
             >
@@ -73,14 +81,12 @@ const Navbar = () => {
           ))}
 
           {/* Resume (mobile) */}
-          <a
-            href={Resume}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/resume"
             className="hover:text-lime-600 font-medium"
           >
             Resume
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

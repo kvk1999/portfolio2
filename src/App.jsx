@@ -1,26 +1,37 @@
-import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import About from './components/About'; // Import the new About component
-import Experience from './components/Experience'; // Import the new Experience component
-import Certifications from './components/Certifications'; // Import the new Certificate component
-import Skills from './components/Skills'; // Import the new Skills component
-import Projects from './components/Projects'; // Import the new Projects component
-import Contact from './components/Contact'; // Import the new Contact component
-
+import About from './components/About';
+import Experience from './components/Experience';
+import Certifications from './components/Certifications';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
-      <About /> {/* Add the About component here */}
-      <Experience /> {/* Add the Experience component here */}
-      <Certifications /> {/* Add the Certificate component here */}
-      <Skills /> {/* Add the Skills component here */}
-      <Projects /> {/* Add the Projects component here */}
-      <Contact /> {/* Add the Contact component here */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+              <About />
+              <Experience />
+              <Certifications />
+              <Skills />
+              <Projects />
+              <Contact />
+            </>
+          }
+        />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
     </div>
   );
 }
-export default App; // Export the App component
+
+export default App;

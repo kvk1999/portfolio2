@@ -1,4 +1,3 @@
-import React from 'react';
 import CRUDOperations from '../assets/CRUD.png'
 import FakeStore from '../assets/fakestore.png'
 import TravelLanding from '../assets/travel.png'
