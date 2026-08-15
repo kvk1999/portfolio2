@@ -5,6 +5,7 @@ import MovieSearchApp from '../assets/MoviezBonanza.png'
 import MemoryGame from '../assets/MemoryGame.png'
 import Course from '../assets/course.png'
 import ecommerceshop from '../assets/ecommerceshop.png'
+import rectangleApp from '../assets/rectangleapp.png'
 
 export default function Projects() {
   return (
