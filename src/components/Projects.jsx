@@ -4,6 +4,7 @@ import TravelLanding from '../assets/travel.png'
 import MovieSearchApp from '../assets/MoviezBonanza.png'
 import MemoryGame from '../assets/MemoryGame.png'
 import Course from '../assets/course.png'
+import ecommerceshop from '../assets/ecommerceshop.png'
 
 export default function Projects() {
   return (
@@ -108,6 +109,50 @@ export default function Projects() {
                 <div className="bg-amber-500 h-[2px] w-0 ml-0 group-hover:w-full transition-all mt-0 duration-500"></div>
               </a>
               <a href="https://twlandpage.netlify.app" className="text-white text-lg mr-2 group">Live
+                <div className="bg-amber-500 h-[2px] w-0 ml-0 group-hover:w-full transition-all mt-0 duration-500"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Ecommerce Shop */}
+        <div className="mt-4 grid gap-4 border rounded-md bg-slate-900 hover:scale-105 hover:animate-pulse">
+          <div className="p-4 rounded-lg">
+            <img src={ecommerceshop} alt="Ecommerce Shop" className="rounded-md" />
+            <h3 className="text-2xl font-oswald font-bold text-transparent text-center mt-2 bg-clip-text bg-gradient-to-r from-linear1 to-linear">
+              Ecommerce Shop
+            </h3>
+            <div className="flex justify-between mt-2 gap-2">
+              <a href="https://github.com/kvk1999/ecommerceshop" className="text-white text-lg font-oswald group">GitHub
+                <div className="bg-amber-500 h-[2px] w-0 ml-0 group-hover:w-full transition-all mt-0 duration-500"></div>
+              </a>
+              <a href="https://ecommerceshop-1.onrender.com" className="text-white text-lg font-oswald group">Frontend
+                <div className="bg-amber-500 h-[2px] w-0 ml-0 group-hover:w-full transition-all mt-0 duration-500"></div>
+              </a>
+              <a href="https://ecommerceshop-hgbi.onrender.com" className="text-white text-lg font-oswald group">Backend
+                <div className="bg-amber-500 h-[2px] w-0 ml-0 group-hover:w-full transition-all mt-0 duration-500"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Rectangle App */}
+        <div className="mt-4 grid gap-4 border rounded-md bg-slate-900 hover:scale-105 hover:animate-pulse">
+          <div className="p-4 rounded-lg">
+            <div className="rounded-md h-48 bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-700 flex items-center justify-center shadow-lg">
+              <span className="text-3xl font-oswald font-bold text-white tracking-wide">Rectangle App</span>
+            </div>
+            <h3 className="text-2xl font-oswald font-bold text-transparent text-center mt-2 bg-clip-text bg-gradient-to-r from-linear1 to-linear">
+              Rectangle App
+            </h3>
+            <div className="flex justify-between mt-2 gap-2">
+              <a href="https://github.com/kvk1999/rectangle-app" className="text-white text-lg font-oswald group">GitHub
+                <div className="bg-amber-500 h-[2px] w-0 ml-0 group-hover:w-full transition-all mt-0 duration-500"></div>
+              </a>
+              <a href="https://rectangle-app-rvq3.onrender.com" className="text-white text-lg font-oswald group">Backend
+                <div className="bg-amber-500 h-[2px] w-0 ml-0 group-hover:w-full transition-all mt-0 duration-500"></div>
+              </a>
+              <a href="https://rectangle-app-frontend.onrender.com" className="text-white text-lg font-oswald group">Frontend
                 <div className="bg-amber-500 h-[2px] w-0 ml-0 group-hover:w-full transition-all mt-0 duration-500"></div>
               </a>
             </div>
