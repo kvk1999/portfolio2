@@ -5,7 +5,7 @@ import MovieSearchApp from '../assets/MoviezBonanza.png'
 import MemoryGame from '../assets/MemoryGame.png'
 import Course from '../assets/course.png'
 import ecommerceshop from '../assets/ecommerceshop.png'
-import rectangleApp from '../assets/rectangleapp.png'
+import rectangleApp from '../assets/rectangle-app.png'
 
 export default function Projects() {
   return (
@@ -140,9 +140,7 @@ export default function Projects() {
         {/* Rectangle App */}
         <div className="mt-4 grid gap-4 border rounded-md bg-slate-900 hover:scale-105 hover:animate-pulse">
           <div className="p-4 rounded-lg">
-            <div className="rounded-md h-48 bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-700 flex items-center justify-center shadow-lg">
-              <span className="text-3xl font-oswald font-bold text-white tracking-wide">Rectangle App</span>
-            </div>
+            <img src={rectangleApp} alt="Rectangle App" className="rounded-md" />
             <h3 className="text-2xl font-oswald font-bold text-transparent text-center mt-2 bg-clip-text bg-gradient-to-r from-linear1 to-linear">
               Rectangle App
             </h3>
