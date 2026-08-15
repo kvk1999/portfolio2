@@ -1,11 +1,11 @@
 import { FileText, Download, ExternalLink } from "lucide-react";
-import resumeClassic from "../assets/Resume-Classic.pdf";
+import resumeClassic from "../assets/Resume-Professional.pdf";
 import resumeModern from "../assets/Resume-modern.pdf";
 
 const resumes = [
   {
     id: 1,
-    title: "Classic Resume",
+    title: "Professional Resume",
     description:
       "ATS-friendly resume with a clean and minimal layout. Best for online job applications.",
     file: resumeClassic,
@@ -17,7 +17,7 @@ const resumes = [
     description:
       "Modern resume with improved visual hierarchy, suitable for recruiters and portfolio reviews.",
     file: resumeModern,
-    badge: "Professional",
+    badge: "Modern Design",
   },
 ];
 
